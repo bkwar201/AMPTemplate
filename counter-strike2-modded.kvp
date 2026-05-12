@@ -3,7 +3,7 @@ Meta.Description=Counter-Strike 2 Dedicated Server (Base files via SteamCMD, wit
 Meta.OS=Windows, Linux
 Meta.AarchSupport=NotSupported
 Meta.Arch=x86_64
-Meta.Author=Greelan
+Meta.Author=Greelan modified to test Kus/CS2
 Meta.URL=https://www.counter-strike.net/cs2
 Meta.DisplayImageSource=steam:730
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$ServerPort}
@@ -24,7 +24,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=6
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
-Meta.AppConfigId=3446bb16-65ea-45fc-993b-cac42f15bd2b
+Meta.AppConfigId=3c138937-eefb-4832-8715-4c42665d5f66
 Meta.AppIsMultiIPAware=True
 
 App.DisplayName=Counter-Strike 2 (Modded Base)
