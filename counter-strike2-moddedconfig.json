@@ -9,7 +9,7 @@
         "InputType": "text",
         "ParamFieldName": "hostname",
         "IncludeInCommandLine": true,
-        "DefaultValue": "AMP Powered Counter-Strike 2 Server",
+        "DefaultValue": "GameTagHost | CS2 Modded",
         "EnumValues": {}
     },
     {
@@ -91,15 +91,15 @@
         "FieldName": "gamemode",
         "InputType": "enum",
         "ParamFieldName": "gamemode",
-        "DefaultValue": "+game_type 0 +game_mode 0",
+        "DefaultValue": "+game_type 3 +game_mode 0",
         "EnumValues": {
-            "+game_type 0 +game_mode 0": "Casual (default)",
+            "+game_type 0 +game_mode 0": "Casual",
             "+game_type 0 +game_mode 1": "Competitive",
             "+game_type 0 +game_mode 2": "Wingman (Competitive 2v2)",
             "+game_type 1 +game_mode 0": "Arms Race",
             "+game_type 1 +game_mode 2": "Deathmatch",
             "+game_type 2 +game_mode 0": "Training",
-            "+game_type 3 +game_mode 0": "Custom",
+            "+game_type 3 +game_mode 0": "Custom (Default)",
             "+game_type 4 +game_mode 0": "Guardian (Co-operative)",
             "+game_type 4 +game_mode 1": "Co-op Strike (Co-op Mission)",
             "+game_type 0 +game_mode 0 +sv_skirmish_id 12": "Retakes"
@@ -391,7 +391,7 @@
     },
     {
         "DisplayName": "Enable Kus Mod Updates",
-        "Category": "Updates",
+        "Category": "CS2 Modded Config",
         "Subcategory": "Kus Update via Git:custom",
         "Description": "If enabled, allows the 'Kus Update via Git' custom action to update modded server files from the configured Git repository",
         "Keywords": "kus,git,mods,update",
@@ -406,7 +406,7 @@
     },
     {
         "DisplayName": "Kus Git Repository URL",
-        "Category": "Updates",
+        "Category": "CS2 Modded Config",
         "Subcategory": "Kus Update via Git:custom",
         "Description": "Git repository URL for the Kus modded server files",
         "Keywords": "kus,git,repository,url",
@@ -418,7 +418,7 @@
     },
     {
         "DisplayName": "Kus Git Branch",
-        "Category": "Updates",
+        "Category": "CS2 Modded Config",
         "Subcategory": "Kus Update via Git:custom",
         "Description": "Git branch to pull for Kus modded server files",
         "Keywords": "kus,git,branch",
